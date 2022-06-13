@@ -1,0 +1,280 @@
+<ion-header [translucent]="true">
+  <ion-toolbar color="dark">
+    <ion-title>
+      Home
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+
+  <ion-list>
+
+    <ion-item [routerLink]="['/fusca']">
+      <ion-thumbnail slot="start">
+        <img src="https://riverautopecas.com.br/site/wp-content/uploads/2017/05/Fusca-1200-66-Sr.-Moacyr.jpg" alt="Fusca">
+      </ion-thumbnail>
+      <ion-label>
+        <ion-text color="primary">
+          <h2>Fusca</h2>
+        </ion-text>
+      </ion-label>
+      <ion-note slot="end">1966</ion-note>
+    </ion-item>
+    <ion-item-options side="end">
+    <ion-item-option (click)="openSite('https://motortudo.com/fusca-1966-ultimo-ano-do-motor-1200/')" color="danger">
+        <ion-icon slot="icon-only" name="information-circle-outline">
+        </ion-icon>
+      </ion-item-option>
+      <ion-item-option (click)="like()" color="success">
+        <ion-icon slot="icon-only" name="star-outline"></ion-icon>
+      </ion-item-option>
+    </ion-item-options>
+
+
+
+
+    <ion-item>
+      <ion-thumbnail slot="start">
+        <img src="https://quatrorodas.abril.com.br/wp-content/uploads/2019/11/hr_8387.cr2_-e1574446155118.jpg?quality=70&strip=info" alt="Chevette">
+      </ion-thumbnail>
+      <ion-label>
+        <ion-text color="primary">
+          <h2>Chevette</h2>
+        </ion-text>
+      </ion-label>
+      <ion-note slot="end">1973</ion-note>
+    </ion-item>
+    <ion-item-options side="end">
+    <ion-item-option (click)="openSite('https://autopapo.uol.com.br/noticia/trajetoria-chevette-20-anos-chevrolet/')" color="danger">
+        <ion-icon slot="icon-only" name="information-circle-outline">
+        </ion-icon>
+      </ion-item-option>
+      <ion-item-option (click)="like()" color="success">
+        <ion-icon slot="icon-only" name="star-outline"></ion-icon>
+      </ion-item-option>
+    </ion-item-options>
+
+
+
+
+    <ion-item>
+      <ion-thumbnail slot="start">
+        <img src="https://motortudo.com/wp-content/uploads/2020/01/opala-comodoro-79-Motor-Tudo-31.jpeg" alt="Opala">
+      </ion-thumbnail>
+      <ion-label>
+        <ion-text color="primary">
+          <h2>Opala Comodoro</h2>
+        </ion-text>
+      </ion-label>
+      <ion-note slot="end">1979</ion-note>
+    </ion-item>
+    <ion-item-options side="end">
+    <ion-item-option (click)="openSite('https://motortudo.com/opala-comodoro-79-o-ultimo-ano-como-versao-top-de-linha/')" color="danger">
+        <ion-icon slot="icon-only" name="information-circle-outline">
+        </ion-icon>
+      </ion-item-option>
+      <ion-item-option (click)="like()" color="success">
+        <ion-icon slot="icon-only" name="star-outline"></ion-icon>
+      </ion-item-option>
+    </ion-item-options>
+
+
+
+
+    <ion-item>
+      <ion-thumbnail slot="start">
+        <img src="https://motortudo.com/wp-content/uploads/2021/05/Opala-Diplomata-4.1-1988-a-alcool-carros-de-luxo-antigos-1.jpg" alt="Diplomata">
+      </ion-thumbnail>
+      <ion-label>
+        <ion-text color="primary">
+          <h2>Opala Diplomata</h2>
+        </ion-text>
+      </ion-label>
+      <ion-note slot="end">1988</ion-note>
+    </ion-item>
+    <ion-item-options side="end">
+    <ion-item-option (click)="openSite('https://motortudo.com/opala-diplomata-se-4-1-s-1988-a-alcool-no-topo-da-hierarquia/')" color="danger">
+        <ion-icon slot="icon-only" name="information-circle-outline">
+        </ion-icon>
+      </ion-item-option>
+      <ion-item-option (click)="like()" color="success">
+        <ion-icon slot="icon-only" name="star-outline"></ion-icon>
+      </ion-item-option>
+    </ion-item-options>
+
+
+
+
+
+    <ion-item>
+      <ion-thumbnail slot="start">
+        <img src="https://motortudo.com/wp-content/uploads/2021/08/Ford-Galaxie-500-1976-Motor-tudo-17-800x533.jpg" alt="Galaxie 500">
+      </ion-thumbnail>
+      <ion-label>
+        <ion-text color="primary">
+          <h2>Galaxie 500</h2>
+        </ion-text>
+      </ion-label>
+      <ion-note slot="end">1976</ion-note>
+    </ion-item>
+    <ion-item-options side="end">
+    <ion-item-option (click)="openSite('https://motortudo.com/ford-galaxie-500-1976-ganha-significativo-upgrade-no-visual/')" color="danger">
+        <ion-icon slot="icon-only" name="information-circle-outline">
+        </ion-icon>
+      </ion-item-option>
+      <ion-item-option (click)="like()" color="success">
+        <ion-icon slot="icon-only" name="star-outline"></ion-icon>
+      </ion-item-option>
+    </ion-item-options>
+
+
+
+
+    <ion-item>
+      <ion-thumbnail slot="start">
+        <img src="https://i0.wp.com/thegarage.com.br/wp-content/uploads/2020/04/capa-2-1980-ford-landau-a-venda.png?fit=1500%2C1000&ssl=1" alt="Landau">
+      </ion-thumbnail>
+      <ion-label>
+        <ion-text color="primary">
+          <h2>Landau</h2>
+        </ion-text>
+      </ion-label>
+      <ion-note slot="end">1980</ion-note>
+    </ion-item>
+    <ion-item-options side="end">
+    <ion-item-option (click)="openSite('https://motortudo.com/landau-5-0-v8-1980/')" color="danger">
+        <ion-icon slot="icon-only" name="information-circle-outline">
+        </ion-icon>
+      </ion-item-option>
+      <ion-item-option (click)="like()" color="success">
+        <ion-icon slot="icon-only" name="star-outline"></ion-icon>
+      </ion-item-option>
+    </ion-item-options>
+
+
+
+
+    <ion-item>
+      <ion-thumbnail slot="start">
+        <img src="https://img.estadao.com.br/wp/jornal-do-carro/files/2012/02/PUMA_SO_.jpg" alt="Puma">
+      </ion-thumbnail>
+      <ion-label>
+        <ion-text color="primary">
+          <h2>Puma</h2>
+        </ion-text>
+      </ion-label>
+      <ion-note slot="end">1976</ion-note>
+    </ion-item>
+    <ion-item-options side="end">
+    <ion-item-option (click)="openSite('https://pumaautomoveis.com.br/')" color="danger">
+        <ion-icon slot="icon-only" name="information-circle-outline">
+        </ion-icon>
+      </ion-item-option>
+      <ion-item-option (click)="like()" color="success">
+        <ion-icon slot="icon-only" name="star-outline"></ion-icon>
+      </ion-item-option>
+    </ion-item-options>
+
+
+
+
+
+    <ion-item>
+      <ion-thumbnail slot="start">
+        <img src="https://combustivel.app/imgs/t650/consumo-targa-1-6.jpg" alt="Miura">
+      </ion-thumbnail>
+      <ion-label>
+        <ion-text color="primary">
+          <h2>Miura Targa</h2>
+        </ion-text>
+      </ion-label>
+      <ion-note slot="end">1984</ion-note>
+    </ion-item>
+    <ion-item-options side="end">
+    <ion-item-option (click)="openSite('https://motortudo.com/miura-targa-1985-entregava-ate-regulagem-automatica-da-coluna-de-direcao/')" color="danger">
+        <ion-icon slot="icon-only" name="information-circle-outline">
+        </ion-icon>
+      </ion-item-option>
+      <ion-item-option (click)="like()" color="success">
+        <ion-icon slot="icon-only" name="star-outline"></ion-icon>
+      </ion-item-option>
+    </ion-item-options>
+
+
+
+    <ion-item>
+      <ion-thumbnail slot="start">
+        <img src="https://www.oficinabrasil.com.br/public/img/noticia/58a34ab1907ea.jpg" alt="Charger RT">
+      </ion-thumbnail>
+      <ion-label>
+        <ion-text color="primary">
+          <h2>Dodge Charger R/T</h2>
+        </ion-text>
+      </ion-label>
+      <ion-note slot="end">1976</ion-note>
+    </ion-item>
+    <ion-item-options side="end">
+    <ion-item-option (click)="openSite('https://motortudo.com/dodge-charger-r-t-v8-1976-um-verdadeiro-muscle-car/')" color="danger">
+        <ion-icon slot="icon-only" name="information-circle-outline">
+        </ion-icon>
+      </ion-item-option>
+      <ion-item-option (click)="like()" color="success">
+        <ion-icon slot="icon-only" name="star-outline"></ion-icon>
+      </ion-item-option>
+    </ion-item-options>
+
+
+
+
+    <ion-item>
+      <ion-thumbnail slot="start">
+        <img src="https://motortudo.com/wp-content/uploads/2021/07/Ford-Maverick-GT-1975-Muscle-car-1.jpg" alt="Maverick">
+      </ion-thumbnail>
+      <ion-label>
+        <ion-text color="primary">
+          <h2>Maverick</h2>
+        </ion-text>
+      </ion-label>
+      <ion-note slot="end">1975</ion-note>
+    </ion-item>
+    <ion-item-options side="end">
+    <ion-item-option (click)="openSite('https://motortudo.com/ford-maverick-gt-v8-1975-o-verdadeiro-sentido-dos-embalos-de-sabado-a-noite/')" color="danger">
+        <ion-icon slot="icon-only" name="information-circle-outline">
+        </ion-icon>
+      </ion-item-option>
+      <ion-item-option (click)="like()" color="success">
+        <ion-icon slot="icon-only" name="star-outline"></ion-icon>
+      </ion-item-option>
+    </ion-item-options>
+
+
+
+
+    <ion-item>
+      <ion-thumbnail slot="start">
+        <img src="https://motortudo.com/wp-content/uploads/2021/11/caravan-ss-1979-carros-esportivos-antigos-6.jpeg" alt="Caravan">
+      </ion-thumbnail>
+      <ion-label>
+        <ion-text color="primary">
+          <h2>Caravan SS</h2>
+        </ion-text>
+      </ion-label>
+      <ion-note slot="end">1979</ion-note>
+    </ion-item>
+    <ion-item-options side="end">
+    <ion-item-option (click)="openSite('https://motortudo.com/caravan-ss-1979-o-sw-esportivo-de-6-cilindros-da-decada-de-1970/')" color="danger">
+        <ion-icon slot="icon-only" name="information-circle-outline">
+        </ion-icon>
+      </ion-item-option>
+      <ion-item-option (click)="like()" color="success">
+        <ion-icon slot="icon-only" name="star-outline"></ion-icon>
+      </ion-item-option>
+    </ion-item-options>
+
+
+  </ion-list>
+
+
+
+</ion-content>
